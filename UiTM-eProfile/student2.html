@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Profile - Nur Syaza Zafieya</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/uitm.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-image: url('assets/images/bgpro.jpg'); /* Ensure the image path is correct */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            margin: 0;
+            padding: 0;
+            color: white;
+            height: 100vh; /* Full viewport height */
+            display: flex;
+            flex-direction: column;
+            justify-content: center; /* Center content vertically */
+            align-items: center; /* Center content horizontally */
+        }
+        h1 {
+            text-align: center;
+            font-size: 24px;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+        }
+        .profile-container {
+            background-color: rgba(0, 0, 139, 0.85); /* Navy semi-transparent background */
+            border-radius: 15px;
+            width: 90%;
+            max-width: 800px;
+            padding: 20px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+            text-align: center;
+            color: #f1f1f1;
+        }
+        .profile-container img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            border: 3px solid #fff;
+            margin-bottom: 15px;
+        }
+        .profile-container h2 {
+            font-size: 18px;
+            color: #ffd700; /* Gold color for the name */
+            margin-bottom: 10px;
+        }
+        .profile-container ul {
+            list-style: none;
+            padding: 0;
+            font-size: 14px;
+        }
+        .profile-container ul li {
+            margin: 5px 0;
+            padding: 5px;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 5px;
+        }
+        .section-title {
+            font-size: 16px;
+            font-weight: bold;
+            color: #87ceeb; /* Light sky blue */
+            margin-top: 15px;
+        }
+        .btn-container {
+            margin-top: 10px;
+            text-align: center;
+        }
+        .btn-container button {
+            margin: 5px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+        .btn-container button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+    </style>
+</head>
+<body>
+    <h1>Student Profile</h1>
+    <div class="profile-container">
+        <img src="assets/images/student2.jpeg" alt="Nur Syaza Zafieya">
+        <h2>Nur Syaza Zafieya Binti Zulkifli</h2>
+        <ul>
+            <li><strong>Student ID:</strong> 2024917495</li>
+            <li><strong>Gender:</strong> Female</li>
+            <li><strong>Semester:</strong> 3</li>
+            <li><strong>Program:</strong> Computer Science</li>
+        </ul>
+        <div class="section-title">Academic Information</div>
+        <ul>
+            <li><strong>GPA:</strong> 4.00</li>
+            <li><strong>Advisor:</strong> Dr. Siti Hawa Aziz</li>
+            <li><strong>Clubs:</strong> Coding Society, Women in Tech</li>
+        </ul>
+        <div class="section-title">Contact Details</div>
+        <ul>
+            <li><strong>Address:</strong> No. 5, Jalan Anggerik, 43000 Kajang, Selangor</li>
+            <li><strong>Phone:</strong> 017-316739</li>
+            <li><strong>Email:</strong> 2024917495@student.uitm.edu.my</li>
+        </ul>
+    </div>
+    <div class="btn-container">
+        <button onclick="location.href='profilemenu.html'">Home</button>
+        <button onclick="location.href='index.html'">Logout</button>
+    </div>
+
+    <!-- Footer -->
+     <footer>
+        &copy; 2024-2025 UiTM Student e-Profile Project by Rahaizat. All rights reserved.
+    </footer>
+</body>
+</html>

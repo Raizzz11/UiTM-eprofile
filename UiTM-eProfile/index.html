@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>UiTM Student e-Profile - Login</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/uitm.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-image: url('assets/images/bg.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            text-align: center;
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+        h1 {
+            font-family: Arial, sans-serif;
+            font-size: 3vw;
+            color: white;
+        }
+        img {
+            width: 150px;
+            height: auto;
+            filter: none;
+            mix-blend-mode: normal;
+        }
+        .form-container {
+            width: 80%;
+            max-width: 400px;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+        }
+        .form-container input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .form-container input[type="submit"] {
+            background-color: #007bff;
+            color: white;
+            cursor: pointer;
+        }
+        .form-container input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+        footer {
+            margin-top: 30px;
+            padding: 10px;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to UiTM Student e-Profile</h1>
+    <img src="assets/images/uitmlogo.png" alt="UiTM Logo">
+
+    <div class="form-container">
+        <form onsubmit="return validateLogin()"> 
+            <label for="username">Username:</label><br>
+            <input type="text" id="username" name="username" required><br>
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" required><br>
+            <input type="submit" value="Login">
+        </form>
+    </div>
+    
+    <footer>
+        &copy; 2024-2025 UiTM Student e-Profile Project by Rahaizat. All rights reserved.
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
