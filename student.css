@@ -1,6 +1,6 @@
 body {
     font-family: 'Arial', sans-serif;
-    background-image: url('assets/images/bgpro.jpg'); /* Ensure the image path is correct */
+    background-image: url('bgpro.jpg'); /* Ensure the image path is correct */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
