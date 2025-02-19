@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Profile - Mohamad Rahaizat Hakimin</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/uitm.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-image: url('assets/images/bgpro.jpg'); /* Ensure the image path is correct */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            margin: 0;
+            padding: 0;
+            color: white;
+            height: 100vh; /* Full viewport height */
+            display: flex;
+            flex-direction: column;
+            justify-content: center; /* Center content vertically */
+            align-items: center; /* Center content horizontally */
+        }
+        h1 {
+            text-align: center;
+            font-size: 24px;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+        }
+        .profile-container {
+            background-color: rgba(0, 0, 139, 0.85); /* Navy semi-transparent background */
+            border-radius: 15px;
+            width: 90%;
+            max-width: 800px;
+            padding: 20px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+            text-align: center;
+            color: #f1f1f1;
+        }
+        .profile-container img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            border: 3px solid #fff;
+            margin-bottom: 15px;
+        }
+        .profile-container h2 {
+            font-size: 18px;
+            color: #ffd700; /* Gold color for the name */
+            margin-bottom: 10px;
+        }
+        .profile-container ul {
+            list-style: none;
+            padding: 0;
+            font-size: 14px;
+        }
+        .profile-container ul li {
+            margin: 5px 0;
+            padding: 5px;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 5px;
+        }
+        .section-title {
+            font-size: 16px;
+            font-weight: bold;
+            color: #87ceeb; /* Light sky blue */
+            margin-top: 15px;
+        }
+        .btn-container {
+            margin-top: 10px;
+            text-align: center;
+        }
+        .btn-container button {
+            margin: 5px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+        .btn-container button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Student Profile</h1>
+    <div class="profile-container">
+        <!-- Student Photo -->
+        <img src="assets/images/student1.png" alt="Mohamad Rahaizat Hakimin">
+        
+        <!-- Student Name -->
+        <h2>Mohamad Rahaizat Hakimin Bin Mohd Rozi</h2>
+        
+        <!-- Basic Information -->
+        <ul>
+            <li><strong>Student ID:</strong> 2024792763</li>
+            <li><strong>Gender:</strong> Male</li>
+            <li><strong>Semester:</strong> 4</li>
+            <li><strong>Program:</strong> Information Systems</li>
+        </ul>
+
+        <!-- Academic Information -->
+        <div class="section-title">Academic Information</div>
+        <ul>
+            <li><strong>GPA:</strong> 3.85</li>
+            <li><strong>Advisor:</strong> Pn. Siti Aishah Mokhtar</li>
+            <li><strong>Clubs:</strong> IT Club, Sports Club</li>
+        </ul>
+
+        <!-- Contact Details -->
+        <div class="section-title">Contact Details</div>
+        <ul>
+            <li><strong>Address:</strong> PT 669A, Taman Riyadul Sakinah, 15100 Kota Bharu, Kelantan</li>
+            <li><strong>Phone:</strong> 017-9289396</li>
+            <li><strong>Email:</strong> 2024792763@student.uitm.edu.my</li>
+        </ul>
+    </div>
+
+    <!-- Navigation Buttons -->
+    <div class="btn-container">
+        <button onclick="location.href='profilemenu.html'">Home</button>
+        <button onclick="location.href='index.html'">Logout</button>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        &copy; 2024-2025 UiTM Student e-Profile Project by Rahaizat. All rights reserved.
+    </footer>
+</body>
+</html>
